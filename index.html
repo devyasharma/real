@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio.co</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+
+    <!-- Include Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body>
+    <!-- <div id="header"> -->
+    <div class="container">
+
+        <!-- this is my navbar -->
+        <nav>
+            <div class="nav-img">
+                <img src="image/AKS__1_-removebg-preview.png">
+            </div>
+            <div class="navbar">
+                <ul id="sidemenu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <!-- this is my header -->
+    <div id="header">
+        <div class="header-text">
+            <!-- <p class="textt"><span style="color: rgba(224, 102, 2, 0.808);">Civil Engineer</span> & <span style="color:rgba(224, 102, 2, 0.808) ;">Real Estate</span> Professional</p> -->
+            <span class="textt"></span>
+            <!-- Add an id to the p tag for targeting with Typed.js -->
+
+            <h1 class="head">Hi, I'm <span class="ar">Arvind</span> Kumar Sharma From Mathura</h1>
+        </div>
+        <div class="header-img">
+            <img src="image/d.jpg">
+        </div>
+    </div>
+
+    <!-- </div> -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/IMG_20221219_235150_827-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>"Welcome to my civil engineering portfolio presentation.
+                        I will show you some of the projects I have worked on as a civil engineer in
+                        various sectors and contexts, including project internships. My goal is to demonstrate my skills
+                        and abilities as a civil engineer and also real estate Professional.<br>
+                        I also bring five years of experience in real estate, excellent customer service, and a
+                        commitment to work hard, listen, and follow through. <br>I provide quality service to build
+                        relationships with clients and, more importantly, maintain those relationships by communicating
+                        effectively."</p>
+                    <div class="tab-title">
+                        <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                        <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                        <P class="tab-links" onclick="opentab('education')">Education</P>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Civil Engineer</span><br>AutoCAD and project Management</li>
+                            <li><span>Structural Engineering</span><br>Ability to evaluate the stability and behavior of
+                                structures</li>
+                            <li><span>Real Estate</span><br>Integrity, Negotiation, Marketing skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Own Real Estate and Construction Business</li>
+                            <li><span>2015 - 2020</span><br>Civil Engineer in Gaur City</li>
+                            <li><span>2014 - 2015</span><br>Internship in SuperTech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014</span><br>B.tech(civil) from Mathura</li>
+                            <li><span>2011</span><br>Senior Secondary from Aligarh</li>
+                            <li><span>2009</span><br>Secondary from Aligarh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-cubes"></i>
+                    <h2>Civil Engineer & Architect</h2>
+                    <p>Managing, designing, developing, creating and maintaining construction projects.Conducting
+                        on-site investigations and analyzing data.Assessing potential risks, materials and costs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-landmark"></i>
+                    <h2>Structural Engineer</h2>
+                    <p>Building structures based on technical specifications.Tracking project progress and reporting on
+                        results.Choosing appropriate materials to ensure durability. Build 2D and 3D models using
+                        computer-aided design technology (e.g. AutoCAD).</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-city"></i>
+                    <h2>Real Estate</h2>
+                    <p>Commercial property refers to land and buildings that are used by businesses to carry out their
+                        operations. Examples include shopping malls, individual stores, office buildings, parking lots,
+                        medical centers, and hotels.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/p0h9k5dl.jpg">
+                    <div class="layer">
+                        <h3>Residential Architecture</h3><br>
+                        <p> The most inspiring residential architecture, landscaping, urbanism, and
+                            more from the world’s best architects. Find all the newest projects in the category House
+                            Interiors.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/real.jpg">
+                    <div class="layer">
+                        <h3>Commercial Project</h3><br>
+                        <p>Gaur City Mall is an affordable project situated in Noida Extension, Noida. The price
+                            under this project vary between $price. Gaur City Mall is located in Gaur City, Noida
+                            Extensions first mega township which is ready-to-move-in with thousands of apartments.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/model-casa.jpg">
+                    <div class="layer">
+                        <h3>The Village of Port Chester</h3><br>
+                        <p>Village of Port Chester in relation to their requirements regarding scope, schedule,
+                            budget, regulatory compliance, quality, and other aspects of the project. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+        <!-- -------contact------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> &nbsp;aksgreat@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> &nbsp;1234567890</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a hrf="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+                <!-- <div class="copyright">
+                    <p>Copyright @ AKS. Made with <i class="fa-solid fa-heart"></i> by your wife</p>
+                </div> -->
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ A.K.S. Made with <i class="fa-solid fa-heart"></i> by your wife.</p>
+        </div>
+
+
+        <!-- <style>
+            .typed-cursor {
+                color: blue;
+                font-size: 85px;
+            }
+        </style> -->
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (let tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (let tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('.textt', {
+                strings: ["<span style='color: rgba(224, 102, 2, 0.808);'>Civil Engineer </span>",
+                    "Structural Engineer",
+                    "<span style='color: rgba(224, 102, 2, 0.808);'>Real Estate Professional</span>"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 500,
+                loop: true,
+                cursorChar: '|',
+                // fadeOut: false,
+                suffle: true,
+            });
+        </script>
+</body>
+
+</html>
