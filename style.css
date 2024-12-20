@@ -412,7 +412,7 @@ nav ul li.active a::after {
 }
 
 .btn2 {
-    display: inline-block;
+    /* display: inline-block; */
     background: #ad5503;
 }
 
@@ -542,14 +542,14 @@ nav .fas {
         flex-basis: 100%;
     }
 
-    .about-col-2 p {
+    /* .about-col-2 p {
         margin-right: 60px;
-    }
+    } */
 
     .sub-title {
         font-size: 30px;
     }
-
+    
     .social-icons {
         width: 200px;
     }
@@ -557,6 +557,9 @@ nav .fas {
     .copyright {
         width: 100%;
     }
+    /* .btn{
+        margin: 50px 96px;
+    } */
 }
 /* ---------for 768px screen--------- */
 
@@ -597,7 +600,7 @@ nav .fas {
     }
     #header {
         flex-direction: column;
-        margin-top: 120px;
+        margin-top: 70px;
     }
 
     .header-text {
@@ -605,16 +608,28 @@ nav .fas {
         font-size: 25px;
         width: 90%;
         margin: auto 0;
+    
     }
 
 
     .header-img {
         width: 100%;
-        margin-left: 50px;
-        margin-top: 90px;
+        margin-right: 32px;
+        margin-top: 100px;
         /* margin-right: 20px; */
 
     }
+    .btn{
+        margin: 50px 86px;
+    }
+    
+
+.contact-right {
+    flex-basis: 100%;
+}
+.contact-left{
+    flex-basis: 100%;
+}
 
     .header-img img {
         width: 100%;
@@ -637,10 +652,6 @@ nav .fas {
         font-size: 60px;
     } */
 
-    .about-col-2 p {
-        margin-right: 60px;
-    }
-
     /* .sub-title {
         font-size: 30px;
     } */
@@ -654,7 +665,7 @@ nav .fas {
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 790px max-width: 992px){
+@media only screen and (minmax-width: 790px; 992px){
 
 .about-col-1{
     flex-basis: 40%;
@@ -667,7 +678,7 @@ nav .fas {
     border-radius: 15px;
 }
 .about-col-2{
-    flex-basis: 45%;
+    /* flex-basis: 45%; */
 }
 
 }
