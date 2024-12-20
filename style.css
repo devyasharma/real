@@ -361,11 +361,12 @@ nav ul li.active a::after {
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ad5503;
-    padding: 14px 50px;
+    padding: 22px 66px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
     transition: background 0.5s;
+    font-size: 20px;
 }
 
 .btn:hover {
@@ -412,7 +413,7 @@ nav ul li.active a::after {
 }
 
 .btn2 {
-    /* display: inline-block; */
+    display: inline-block;
     background: #ad5503;
 }
 
