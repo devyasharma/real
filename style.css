@@ -8,7 +8,6 @@
 body {
     background: #08363c;
     color: white;
-    overflow: hidden;
 }
 
 .container {
@@ -559,6 +558,9 @@ nav .fas {
     .copyright {
         width: 100%;
     }
+    .oo{
+        padding: 20px 70px;
+    }
     /* .btn{
         margin: 50px 96px;
     } */
@@ -650,9 +652,7 @@ nav .fas {
     .about-col-2{
         flex-basis: 100%;
     }
-    .oo{
-        padding: 20px 70px;
-    }
+
     /* .about-col-2 h1{
         font-size: 60px;
     } */
