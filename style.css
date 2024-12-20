@@ -412,7 +412,7 @@ nav ul li.active a::after {
 }
 
 .btn2 {
-    display: inline-block;
+    /* display: inline-block; */
     background: #ad5503;
 }
 
