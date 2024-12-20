@@ -223,6 +223,81 @@
         var typed = new Typed("#typed-output", options);
     </script>
 
+<nav>
+  <div class="nav-img">
+      <img src="image/AKS__1_-removebg-preview.png">
+  </div>
+  <div class="navbar">
+      <ul id="sidemenu">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+      </ul>
+  </div>
+  <style>
+
+#header {
+    width: 90%;
+    margin: 10px 0;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    width: 55%;
+    height: auto;
+    font-size: 30px;
+    color: beige;
+    margin-left: 5rem;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-right: 30px;
+
+
+}
+
+.ar {
+    color: #ff68049d;
+    font-size: 90px;
+}
+
+.header-img {
+    margin-left: 10px;
+    width: 45%;
+    position: relative;
+
+}
+
+.header-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(85, 84, 84, 0.521);
+    /* box-shadow: 2px 3px 2px 2px gray; */
+    box-shadow: -1px -1px 20px 20px rgba(20, 138, 138, 0.795);
+    transition: transform 0.8s ease, opacity 0.1s ease;
+    /* box-shadow: -10px -10px 10px rgba(20, 138, 138, 0.795); */
+}
+
+.header-img img:hover {
+    color: gray;
+}
+
+.header-img:hover img {
+    opacity: 0.8;
+    /* Adjust the opacity as you like */
+    transform: scale(1.1);
+    /* Zoom-in effect */
+}
+
+  </style>
 </body>
 </html>
 

@@ -7,18 +7,13 @@
     <title>Portfolio.co</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
-
-    <!-- Include Typed.js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
 </head>
 
 <body>
-    <!-- <div id="header"> -->
-    <div class="container">
 
-        <!-- this is my navbar -->
+    <!------------------ this is my navbar ---------------->
+
+    <div class="container">
         <nav>
             <div class="nav-img">
                 <img src="image/AKS__1_-removebg-preview.png">
@@ -33,24 +28,24 @@
                     <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
                 </ul>
             </div>
+
             <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
         </nav>
     </div>
-    <!-- this is my header -->
+
+    <!-------------- this is my header ---------------->
+
     <div id="header">
         <div class="header-text">
-            <!-- <p class="textt"><span style="color: rgba(224, 102, 2, 0.808);">Civil Engineer</span> & <span style="color:rgba(224, 102, 2, 0.808) ;">Real Estate</span> Professional</p> -->
             <span class="textt"></span>
-            <!-- Add an id to the p tag for targeting with Typed.js -->
-
-            <h1 class="head">Hi, I'm <span class="ar">Arvind</span> Kumar Sharma From Mathura</h1>
+            <h1>Hi, I'm <span class="ar">Arvind</span> Kumar Sharma From Mathura</h1>
         </div>
         <div class="header-img">
             <img src="image/d.jpg">
         </div>
     </div>
 
-    <!-- </div> -->
+    <!-- ---------------about------------ -------->
 
     <div id="about">
         <div class="container">
@@ -99,7 +94,9 @@
             </div>
         </div>
     </div>
-    <!-- ----------services--------- -->
+
+    <!-- ---------------services--------------------- -->
+
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
@@ -130,7 +127,9 @@
             </div>
         </div>
     </div>
+
     <!-- ---------------portfolio---------------- -->
+
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
@@ -145,7 +144,6 @@
                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
-
                 <div class="work">
                     <img src="image/real.jpg">
                     <div class="layer">
@@ -167,10 +165,11 @@
                     </div>
                 </div>
             </div>
-            
             <a href="#" class="btn">See more</a>
         </div>
-        <!-- -------contact------- -->
+
+        <!-- --------------contact------------- -->
+
         <div id="contact">
             <div class="container">
                 <div class="row">
@@ -194,25 +193,16 @@
                             <button type="submit" class="btn btn2">Submit</button>
                         </form>
                     </div>
-
                 </div>
-                <!-- <div class="copyright">
-                    <p>Copyright @ AKS. Made with <i class="fa-solid fa-heart"></i> by your wife</p>
-                </div> -->
             </div>
         </div>
         <div class="copyright">
             <p>Copyright @ A.K.S. Made with <i class="fa-solid fa-heart"></i> by your wife.</p>
         </div>
 
+        <!-- ------------------------script----------------------- -->
 
-        <!-- <style>
-            .typed-cursor {
-                color: blue;
-                font-size: 85px;
-            }
-        </style> -->
-
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script>
             var tablinks = document.getElementsByClassName("tab-links");
             var tabcontents = document.getElementsByClassName("tab-contents");
@@ -228,6 +218,7 @@
                 document.getElementById(tabname).classList.add("active-tab");
             }
         </script>
+
         <script>
             var sidemenu = document.getElementById("sidemenu");
             function openmenu() {
